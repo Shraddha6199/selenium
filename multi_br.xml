@@ -1,0 +1,16 @@
+
+<suite name="Suite"  parallel="tests">
+  <test name="Test_Chrome">
+  <parameter name="browserName" value="Chrome"/>
+  <classes>
+  <class name="TestNG.multi_browser"/>
+  </classes>
+  </test> <!-- Test -->
+  
+  <test name="Test_firefox">
+  <parameter name="browserName" value="firefox"/>
+  <classes>
+  <class name="TestNG.multi_browser"/>
+  </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
